@@ -1,0 +1,13 @@
+.footer{
+    padding-top:150px;
+    display: flex;
+}
+.footer-info{
+    width: 30%;
+    background-color:black;
+}
+
+.navigation{
+    width: 70%;
+    height: 550px;
+}

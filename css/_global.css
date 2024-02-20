@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  img, svg {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    min-width: 320px;
+    background-image: url(/img/Fon-main.png);  }
+  
+  .reset-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .reset-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+  }
+
+  .container {
+    margin:0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1870px;
+}
